@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace MIcroRabbit.Banking.Api
+namespace MicroRabbit.Banking.Api
 {
     public class Program
     {

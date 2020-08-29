@@ -25,7 +25,7 @@ namespace MicroRabbit.Infra.Bus
             _handlers = new Dictionary<string, List<Type>>();
             _eventTypes = new List<Type>();
         }
-        public Task SetCommand<T>(T command) where T : Command
+        public Task SendCommand<T>(T command) where T : Command
         {
             return _mediator.Send(command);
         }

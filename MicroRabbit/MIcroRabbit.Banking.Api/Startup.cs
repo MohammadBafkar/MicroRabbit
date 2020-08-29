@@ -16,7 +16,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace MIcroRabbit.Banking.Api
+namespace MicroRabbit.Banking.Api
 {
     public class Startup
     {
